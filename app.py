@@ -2,7 +2,7 @@ import streamlit as st
 import joblib
 
 # Load the trained logistic regression model
-model = joblib.load("logistic_model.pkl")
+model = joblib.load("logistic_model_clean.pkl")
 
 st.title("Customer Purchase Prediction App")
 
